@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ft_package"
+version = "0.0.1"
+description = "A simple package that allows you to count the number of occurrences of a given value."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+	{ name = "Clement", email = "cparodi@student.42nice.fr" }
+]
+
+[project.urls]
+Homepage = "https://github.com/"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ft_package*"]
