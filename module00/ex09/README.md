@@ -1,6 +1,6 @@
 # ft_package
 
-A small Python package that counts how many times a item appears in a list.
+A small Python package that counts how many times an item appears in a list.
 Created as the last exercise of the *Piscine Python for Data Science* (module 00), 42 Nice.
 
 ## Installation
@@ -40,8 +40,8 @@ print(count_in_list(["toto", "tata", "toto"], "tutu"))  # 0
 `count_in_list(lst, value)`
 
 - `lst`: the list to search in.
-- `value`: the value to count.
-- Returns the number of items in `lst` equal to `value`, as an `int`.
+- `item`: the item to count.
+- Returns the number of items in `lst` equal to `item`, as an `int`.
 
 ## Requirements
 
