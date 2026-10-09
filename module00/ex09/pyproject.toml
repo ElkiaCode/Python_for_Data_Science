@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=77.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -14,7 +14,7 @@ authors = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/"
+Homepage = "https://github.com/ElkiaCode/Python_for_Data_Science/tree/main/module00/ex09"
 
 [tool.setuptools.packages.find]
 where = ["."]

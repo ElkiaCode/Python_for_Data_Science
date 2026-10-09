@@ -1,6 +1,6 @@
 # ft_package
 
-A small Python package that counts how many times a value appears in a list.
+A small Python package that counts how many times a item appears in a list.
 Created as the last exercise of the *Piscine Python for Data Science* (module 00), 42 Nice.
 
 ## Installation
