@@ -27,7 +27,7 @@ def apply_limit(bmi: list[int | float], limit: int) -> list[bool]:
                 raise AssertionError("argument is not an int or float")
         assert all(x > 0 for x in bmi), "not a positive int or float"
         assert type(limit) is int, "limit is not an int"
-        assert limit >= 0, "limit much be a positive int or 0"
+        assert limit >= 0, "limit must be a positive int or 0"
         res = [x > limit for x in bmi]
         return res
     except AssertionError as e:
