@@ -12,6 +12,3 @@ def load(path: str) -> pd.DataFrame | None:
     except (AssertionError, OSError, ValueError) as e:
         print(type(e).__name__ + ":", e)
         return None
-    except Exception as e:
-        print(type(e).__mro__, ":")
-        return None
