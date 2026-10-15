@@ -17,6 +17,8 @@ def main():
         plt.show()
     except (IndexError) as e:
         print(type(e).__name__ + ":", e)
+    except KeyboardInterrupt:
+        print("\nProgram interrupted by user.")
 
 
 if __name__ == "__main__":

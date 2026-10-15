@@ -66,6 +66,8 @@ def main():
         ft_grey(array)
     except (IndexError, ValueError) as e:
         print(type(e).__name__ + ":", e)
+    except KeyboardInterrupt:
+        print("\nProgram interrupted by user.")
 
 
 if __name__ == "__main__":
